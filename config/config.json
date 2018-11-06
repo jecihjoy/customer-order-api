@@ -1,0 +1,13 @@
+{
+    "application": {
+        "host":"0.0.0.0",
+        "port":3000
+    },
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "customer_order",
+        "multipleStatement": true
+    }
+}

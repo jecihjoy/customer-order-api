@@ -1,0 +1,521 @@
+{
+  "stats": {
+    "suites": 48,
+    "tests": 101,
+    "passes": 101,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-11-06T13:38:06.267Z",
+    "end": "2018-11-06T13:38:15.580Z",
+    "duration": 9313
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "should add two numbers",
+      "fullTitle": "addTwoNumbers() should add two numbers",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test findAll() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#test findAll() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test findOne() should work",
+      "duration": 0
+    },
+    {
+      "title": "findOne should resolve to a db object",
+      "fullTitle": "#test findOne() findOne should resolve to a db object",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test getCount() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return count",
+      "fullTitle": "#test getCount() should work and return count",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test executequery() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and let me run a query",
+      "fullTitle": "#test executequery() should work and let me run a query",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#createCustomers() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(data)",
+      "fullTitle": "#updateCustomers() should be called with one argument(data)",
+      "duration": 0
+    },
+    {
+      "title": "should update and return a success message",
+      "fullTitle": "#updateCustomers() should update and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(2)",
+      "fullTitle": "#deleteCustomer() should be called with one argument(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#deleteCustomer() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with data to be saved",
+      "fullTitle": "#saveOrderDetails() should be called with data to be saved",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#saveOrderDetails() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#getAllOrders() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#getAllOrders() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#getOrderById() should work",
+      "duration": 0
+    },
+    {
+      "title": "should be called with an id, 6",
+      "fullTitle": "#getOrderById() should be called with an id, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return an order",
+      "fullTitle": "#getOrderById() should work and return an order",
+      "duration": 0
+    },
+    {
+      "title": "should be called with two arguments, orderId(10) and ProductId(2)",
+      "fullTitle": "#deleteOrderProduct() should be called with two arguments, orderId(10) and ProductId(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#deleteOrderProduct() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with data",
+      "fullTitle": "#updateOrderProducts() should be called with data",
+      "duration": 0
+    },
+    {
+      "title": "should update and return update success",
+      "fullTitle": "#updateOrderProducts() should update and return update success",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test topCustomerByTransaction should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return most frequent customer",
+      "fullTitle": "#test topCustomerByTransaction should work and return most frequent customer",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test customerTransactions should work",
+      "duration": 0
+    },
+    {
+      "title": "should work customer transactions",
+      "fullTitle": "#test customerTransactions should work customer transactions",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#createOrders() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(2)",
+      "fullTitle": "#deleteOrder() should be called with one argument(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#deleteOrder() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#createProducts() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(data)",
+      "fullTitle": "#updateProducts() should be called with one argument(data)",
+      "duration": 0
+    },
+    {
+      "title": "should update and return a success message",
+      "fullTitle": "#updateProducts() should update and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(4)",
+      "fullTitle": "#deleteProduct() should be called with one argument(4)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#deleteProduct() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "#generateInsert should be called with two arguments and return an insert query",
+      "fullTitle": "#sqlGenerator #generateInsert should be called with two arguments and return an insert query",
+      "duration": 0
+    },
+    {
+      "title": "#generateUpdateQuery should be called with two arguments and return a prepared update statement ?",
+      "fullTitle": "#sqlGenerator #generateUpdateQuery should be called with two arguments and return a prepared update statement ?",
+      "duration": 0
+    },
+    {
+      "title": "# generateDeleteQuery should be called with one arguments and return a prepared delete statement ?",
+      "fullTitle": "#sqlGenerator # generateDeleteQuery should be called with one arguments and return a prepared delete statement ?",
+      "duration": 0
+    },
+    {
+      "title": "should return a list of all customers",
+      "fullTitle": "test customers routes should return a list of all customers",
+      "duration": 0
+    },
+    {
+      "title": "should return a customer",
+      "fullTitle": "test customers routes should return a customer",
+      "duration": 0
+    },
+    {
+      "title": "should add a customer to the list",
+      "fullTitle": "test customers routes should add a customer to the list",
+      "duration": 1047
+    },
+    {
+      "title": "should update the specified customer",
+      "fullTitle": "test customers routes should update the specified customer",
+      "duration": 1021
+    },
+    {
+      "title": "should delete the specified customer",
+      "fullTitle": "test customers routes should delete the specified customer",
+      "duration": 1011
+    },
+    {
+      "title": "should return a list of all products",
+      "fullTitle": "test products routes should return a list of all products",
+      "duration": 0
+    },
+    {
+      "title": "should return a product",
+      "fullTitle": "test products routes should return a product",
+      "duration": 0
+    },
+    {
+      "title": "should add a product to the list",
+      "fullTitle": "test products routes should add a product to the list",
+      "duration": 1027
+    },
+    {
+      "title": "should update the specified product",
+      "fullTitle": "test products routes should update the specified product",
+      "duration": 1020
+    },
+    {
+      "title": "should delete the specified product",
+      "fullTitle": "test products routes should delete the specified product",
+      "duration": 1031
+    },
+    {
+      "title": "should return a list of all orders",
+      "fullTitle": "test products routes should return a list of all orders",
+      "duration": 0
+    },
+    {
+      "title": "should return an order with its products",
+      "fullTitle": "test products routes should return an order with its products",
+      "duration": 0
+    },
+    {
+      "title": "should add an order to the list",
+      "fullTitle": "test products routes should add an order to the list",
+      "duration": 1021
+    },
+    {
+      "title": "should update the specified order",
+      "fullTitle": "test products routes should update the specified order",
+      "duration": 1025
+    },
+    {
+      "title": "should delete the specified order",
+      "fullTitle": "test products routes should delete the specified order",
+      "duration": 1034
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#service #createCustomers() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(data)",
+      "fullTitle": "#service #updateCustomers() should be called with one argument(data)",
+      "duration": 0
+    },
+    {
+      "title": "should update and return a success message",
+      "fullTitle": "#service #updateCustomers() should update and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getAllCustomers() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#service #getAllCustomers() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getCustomer() should work",
+      "duration": 0
+    },
+    {
+      "title": "should be called with an id, 6",
+      "fullTitle": "#service #getCustomer() should be called with an id, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return an order",
+      "fullTitle": "#service #getCustomer() should work and return an order",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(2)",
+      "fullTitle": "#service #deleteCustomer() should be called with one argument(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#service #deleteCustomer() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should return number of orders, 6",
+      "fullTitle": "#service #countCustomers should return the number of orders should return number of orders, 6",
+      "duration": 0
+    },
+    {
+      "title": "should be called with data to be saved",
+      "fullTitle": "#service #saveTransaction() should be called with data to be saved",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#service #saveTransaction() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getAllOrders() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#service #getAllOrders() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getByOrderId() should work",
+      "duration": 0
+    },
+    {
+      "title": "should be called with an id, 6",
+      "fullTitle": "#service #getByOrderId() should be called with an id, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return an order",
+      "fullTitle": "#service #getByOrderId() should work and return an order",
+      "duration": 0
+    },
+    {
+      "title": "should be called with two arguments, orderId(10) and ProductId(2)",
+      "fullTitle": "#service #deleteOrderProduct() should be called with two arguments, orderId(10) and ProductId(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#service #deleteOrderProduct() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with data",
+      "fullTitle": "#service #updateOrderProducts() should be called with data",
+      "duration": 0
+    },
+    {
+      "title": "should update and return update success",
+      "fullTitle": "#service #updateOrderProducts() should update and return update success",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test topCustomerByTransaction should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return most frequent customer",
+      "fullTitle": "#test topCustomerByTransaction should work and return most frequent customer",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#test customerTransactions should work",
+      "duration": 0
+    },
+    {
+      "title": "should work customer transactions",
+      "fullTitle": "#test customerTransactions should work customer transactions",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#service #createOrder() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getAllOrders() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#service #getAllOrders() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getOrderById() should work",
+      "duration": 0
+    },
+    {
+      "title": "should be called with an id, 6",
+      "fullTitle": "#service #getOrderById() should be called with an id, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return an order",
+      "fullTitle": "#service #getOrderById() should work and return an order",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(2)",
+      "fullTitle": "#service #deleteOrder() should be called with one argument(2)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#service #deleteOrder() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should return number of orders, 6",
+      "fullTitle": "#service #countOrders should return the number of orders should return number of orders, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return success message",
+      "fullTitle": "#service #createProducts() should work and return success message",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getAllProducts() should work",
+      "duration": 0
+    },
+    {
+      "title": "should work and return data",
+      "fullTitle": "#service #getAllProducts() should work and return data",
+      "duration": 0
+    },
+    {
+      "title": "should work",
+      "fullTitle": "#service #getProduct() should work",
+      "duration": 0
+    },
+    {
+      "title": "should be called with an id, 6",
+      "fullTitle": "#service #getProduct() should be called with an id, 6",
+      "duration": 0
+    },
+    {
+      "title": "should work and return an order",
+      "fullTitle": "#service #getProduct() should work and return an order",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(data)",
+      "fullTitle": "#service #updateProducts() should be called with one argument(data)",
+      "duration": 0
+    },
+    {
+      "title": "should update and return a success message",
+      "fullTitle": "#service #updateProducts() should update and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should be called with one argument(4)",
+      "fullTitle": "#service #deleteProduct() should be called with one argument(4)",
+      "duration": 0
+    },
+    {
+      "title": "should delete and return a success message",
+      "fullTitle": "#service #deleteProduct() should delete and return a success message",
+      "duration": 0
+    },
+    {
+      "title": "should return number of orders, 6",
+      "fullTitle": "#service #countProducts should return the number of orders should return number of orders, 6",
+      "duration": 0
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,12 @@
+{
+    "name": "customer-order-webservice",
+    "script": "/app/customer-order-webservice/index.js",
+    "watch": false,
+    "instances": 1,
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "env_production": {
+        "NODE_ENV": "production"
+    }
+}
